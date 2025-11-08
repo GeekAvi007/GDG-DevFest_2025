@@ -101,6 +101,13 @@ export default function Header() {
             Sponsors
           </button>
           <Link
+            to="/ctfwinner"
+            onClick={() => setMenuOpen(false)}
+            className="block w-full text-left hover:text-pink-500 cursor-pointer"
+          >
+            CtfWinner
+          </Link>
+          <Link
             to="/speakers"
             onClick={() => setMenuOpen(false)}
             className="block w-full text-left hover:text-red-500"
